@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.litonghosh.mediaplayer.MainActivity"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="100dp"
+    android:weightSum="1"
+    android:background="@drawable/pioneer">
+
+        <Button
+            android:id="@+id/AudioStream"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+
+            android:text="Audio Stream" />
+
+        <Button
+            android:id="@+id/Audio"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+
+            android:text="Audio" />
+
+        <Button
+            android:id="@+id/Video"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+
+            android:text="Video" />
+        <Button
+            android:id="@+id/About_Us"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+
+            android:text="About us" />
+
+</LinearLayout>
